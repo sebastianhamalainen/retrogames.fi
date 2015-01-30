@@ -1,0 +1,105 @@
+@font-face
+{
+font-family: multicolore;
+src: url('../fonts/Multicolore.otf');
+}
+
+@font-face
+{
+font-family: aller;
+src: url('../fonts/Aller_Rg.ttf');
+}
+
+@font-face
+{
+font-family: aller_lt;
+src: url('../fonts/Aller_Lt.ttf');
+}
+
+body {
+  padding-top: 50px;
+  background-image:url('../images/white.png');
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.lead {
+font-style: italic;
+}
+
+.margin-btm {
+  margin-bottom: 15px;
+}
+
+.col-sm-8, .col-sm-4, .col-sm-2 {
+margin: 10px 0px;
+}
+
+
+
+/* Shopping cart icon */
+.shopping-cart {
+padding: 20px;
+}
+
+article {
+background-image:url('../images/gray.png');
+padding: 20px 0px;
+margin-top: 20px;
+}
+
+span {
+font-size: 1.5rem;
+}
+
+/* navbar */
+.navbar-inverse {
+background-image:url('../images/black.png');
+}
+
+.img-rounded {
+ border: 1px;
+ border-style: solid;
+ border-color: #ccc;
+}
+
+/* Navbar title */
+.navbar-inverse .navbar-brand {
+  color: white;
+  font-family: multicolore;
+}
+
+/* Navbar link  */
+.navbar-inverse .navbar-nav  > li > a {
+    color: white;
+	font-family: aller;
+}
+
+h1, h4 {
+  font-family: multicolore;
+  }
+
+h4 {
+  margin: 0px;
+}  
+  
+  p, strong {
+  font-family: aller;
+}
+  
+ p.lead {
+  font-family: aller_lt;
+}
+  
+footer {
+background-image:url('../images/black.png');
+padding: 20px;
+color: white;
+}
+
+.col-sm-4 img {
+  display: block;
+  margin: 0 auto;
+}
