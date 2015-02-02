@@ -27,6 +27,7 @@ body {
 
 .lead {
 font-style: italic;
+font-size: 25px;
 }
 
 .margin-btm {
@@ -36,8 +37,6 @@ font-style: italic;
 .col-sm-8, .col-sm-4, .col-sm-2 {
 margin: 10px 0px;
 }
-
-
 
 /* Shopping cart icon */
 .shopping-cart {
@@ -62,7 +61,7 @@ background-image:url('../images/black.png');
 .img-rounded {
  border: 1px;
  border-style: solid;
- border-color: #ccc;
+ border-color: #ff0000;
 }
 
 /* Navbar title */
